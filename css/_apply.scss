@@ -1,0 +1,174 @@
+h2 {
+	color: #FFF;
+	background: #000;
+	padding: 5px;
+}
+
+ul {
+	list-style-type:none;
+	padding-left: 0;
+}
+
+#page {
+	width: $pageWidth;
+	margin: 0 auto;
+}
+#headshot{
+	width: $headshotWidth;
+	height: $headshotWidth;
+	background: #666;
+	margin-right: $headshotMargin;
+}
+#introduction {
+	width: $pageWidth - $headshotWidth - $headshotMargin;
+	height: $headshotWidth;
+	margin-left: -6px;
+
+	position: relative;
+}
+#headshot, #introduction {
+	vertical-align: top;
+	display: inline-block;
+}
+#socialRow {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+
+	height: $socialWidth;
+
+	a {
+		text-decoration: none;
+	}
+
+	img {
+		width: $socialWidth;
+		height: $socialWidth;
+		margin-right: 5px;
+	}
+}
+.project {
+
+	h3 {
+		margin-top: 30px;
+	}
+
+	.meat > * {
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.text {
+		width: $pageWidth - $portfolioImageWidth - $portfolioImageMargin;
+		margin-right: $portfolioImageMargin;
+	}
+	.description {
+		margin-top: 0;
+	}
+
+	h4 {
+		margin-bottom: 0;
+	}
+	.tech {
+		margin-top: 0;
+	}
+
+
+	.gallery {
+		margin-left: -4px;
+
+		img {
+			width: $portfolioImageWidth;
+			height: $portfolioImageHeight;
+		}
+	}
+}
+
+.recommendation {
+	width: $pageWidth;
+	margin-bottom: 20px;
+
+	> * {
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	img {
+		width: $recommendationImageWidth;
+		height: $recommendationImageWidth;
+		margin-right: $recommendationImageMargin;
+	}
+
+	h3 {
+		margin-top: -4px;
+		margin-bottom: 2px;
+	}
+
+	span {
+		color: #666;
+	}
+
+	.content {
+		width: $pageWidth - $recommendationImageWidth - $recommendationImageMargin;
+		margin-left: -4px;
+	}
+}
+
+#skills {
+	position: relative;
+	left: 4px;
+}
+.skillGroup {
+	display:inline-block;
+	vertical-align: top;
+	width: 25%;
+	margin-left: -4px;
+
+	h3 {
+		margin-bottom: 4px;
+		margin-top: 0;
+	}
+	.skillList {
+		margin-top: 0;
+	}
+}
+.skillList li {
+
+	height: $skillImageWidth;
+	margin-bottom: 8px;
+
+	> * {
+		vertical-align: top;
+		display: inline-block;
+		height: 100%;
+	}
+
+	label {
+		
+	}
+
+	.right {
+		position: relative;
+	}
+	.bar {
+		position: absolute;
+		bottom: 0;
+		width: $skillBarWidth;
+		height: $skillBarHeight;
+
+		> * {
+			position: absolute;
+			height: $skillBarHeight;
+		}
+
+		.background {
+			background: #CCC;
+			width: 100%;
+		}
+		.foreground {
+			background: #666;
+		}
+
+	}
+
+}
