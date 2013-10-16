@@ -1,4 +1,22 @@
+@font-face {
+  font-family: 'roboto';
+  src: url("../font/Roboto-Regular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'roboto-black';
+  src: url("../font/Roboto-Black.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
 @media all and (max-width: 700px) {
+  * {
+    font-family: 'roboto'; }
+
+  h1, h2, h3 {
+    font-family: 'roboto-black'; }
+
   h2 {
     color: #FFF;
     background: #000;
