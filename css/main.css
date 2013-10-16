@@ -1,52 +1,147 @@
-/*
-Syntax error: File to import not found or unreadable: iosslider.
-              Load paths:
-                /home/todorus/Documents/projects/portfolio-web
-                /home/todorus/Documents/projects/portfolio-web/css
-        on line 2 of css/main.scss
+@font-face {
+  font-family: 'roboto';
+  src: url("../font/Roboto-Regular.ttf");
+  font-weight: normal;
+  font-style: normal; }
 
-1: @import "font";
-2: @import "iosslider";
-3: @import "values";
-4: @import "apply";
+@font-face {
+  font-family: 'roboto-black';
+  src: url("../font/Roboto-Black.ttf");
+  font-weight: normal;
+  font-style: normal; }
 
-Backtrace:
-css/main.scss:2
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/tree/import_node.rb:45:in `import'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/tree/import_node.rb:28:in `imported_file'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/tree/import_node.rb:37:in `css_import?'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `map'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/tree/root_node.rb:20:in `render'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/engine.rb:315:in `_render'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/engine.rb:262:in `render'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `each'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:283:in `block in watch'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:198:in `call'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:198:in `report_changes'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:210:in `poll_changed_dirs'
-/home/todorus/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/linux.rb:48:in `block in start'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: iosslider.\A               Load paths:\A                 /home/todorus/Documents/projects/portfolio-web\A                 /home/todorus/Documents/projects/portfolio-web/css\A         on line 2 of css/main.scss\A \A 1: @import \"font\";\A 2: @import \"iosslider\";\A 3: @import \"values\";\A 4: @import \"apply\";"; }
+* {
+  font-family: 'roboto'; }
+
+h1, h2, h3 {
+  font-family: 'roboto-black'; }
+
+h2 {
+  color: #FFF;
+  background: #000;
+  padding: 5px; }
+
+ul {
+  list-style-type: none;
+  padding-left: 0; }
+
+#page {
+  width: 700px;
+  margin: 0 auto; }
+
+#headshot {
+  width: 200px;
+  height: 200px;
+  background: #666;
+  margin-right: 30px; }
+
+#introduction {
+  width: 470px;
+  height: 200px;
+  margin-left: -6px;
+  position: relative; }
+
+#headshot, #introduction {
+  vertical-align: top;
+  display: inline-block; }
+
+#socialRow {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 40px; }
+  #socialRow a {
+    text-decoration: none; }
+  #socialRow img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px; }
+
+.project h3 {
+  margin-top: 30px; }
+.project .meat > * {
+  display: inline-block;
+  vertical-align: top; }
+.project .description {
+  margin-top: 0; }
+.project h4 {
+  margin-bottom: 0; }
+.project .tech {
+  margin-top: 0; }
+.project .gallery {
+  margin-bottom: 20px;
+  width: 700px;
+  height: 525px; }
+  .project .gallery img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .project .gallery img.height {
+    width: auto;
+    height: 100%; }
+  .project .gallery .swiper-slide div {
+    width: 400px;
+    height: 300px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center; }
+
+.recommendation {
+  width: 700px;
+  margin-bottom: 20px; }
+  .recommendation > * {
+    display: inline-block;
+    vertical-align: top; }
+  .recommendation img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px; }
+  .recommendation h3 {
+    margin-top: -4px;
+    margin-bottom: 2px; }
+  .recommendation span {
+    color: #666; }
+  .recommendation .content {
+    width: 580px;
+    margin-left: -4px; }
+
+#skills {
+  position: relative;
+  left: 4px; }
+
+.skillGroup {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  margin-left: -4px; }
+  .skillGroup h3 {
+    margin-bottom: 4px;
+    margin-top: 0; }
+  .skillGroup .skillList {
+    margin-top: 0; }
+
+.skillList li {
+  height: 40px;
+  margin-bottom: 8px; }
+  .skillList li > * {
+    vertical-align: top;
+    display: inline-block;
+    height: 100%; }
+  .skillList li .right {
+    position: relative; }
+  .skillList li .bar {
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    height: 15px; }
+    .skillList li .bar > * {
+      position: absolute;
+      height: 15px; }
+    .skillList li .bar .background {
+      background: #CCC;
+      width: 100%; }
+    .skillList li .bar .foreground {
+      background: #666; }
