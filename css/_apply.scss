@@ -66,8 +66,10 @@ ul {
 	}
 
 	.text {
-		width: $pageWidth - $portfolioImageWidth - $portfolioImageMargin;
-		margin-right: $portfolioImageMargin;
+		
+
+		//width: $pageWidth - $portfolioImageWidth - $portfolioImageMargin;
+		//margin-right: $portfolioImageMargin;
 	}
 	.description {
 		margin-top: 0;
@@ -82,11 +84,30 @@ ul {
 
 
 	.gallery {
-		margin-left: -4px;
+		margin-bottom: 20px;
+		width: $pageWidth;
+		height: .75 * $pageWidth;
 
 		img {
+			width: 100%;
+			height: auto;
+
+			text-align: center;
+			display: block;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		img.height {
+			width: auto;
+			height: 100%;
+		}
+
+		.swiper-slide div {
 			width: $portfolioImageWidth;
 			height: $portfolioImageHeight;
+			background-size: cover !important;
+			background-repeat:no-repeat !important;
+			background-position: center;
 		}
 	}
 }
