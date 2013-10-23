@@ -27,18 +27,18 @@
     padding-left: 0; }
 
   #page {
-    width: 600px;
+    width: 500px;
     margin: 0 auto; }
 
   #headshot {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background: #666;
     margin-right: 30px; }
 
   #introduction {
-    width: 470px;
-    height: 100px;
+    width: 270px;
+    height: 200px;
     margin-left: -6px;
     position: relative; }
 
@@ -60,9 +60,6 @@
 
   .project h3 {
     margin-top: 30px; }
-  .project .meat > * {
-    display: inline-block;
-    vertical-align: top; }
   .project .description {
     margin-top: 0; }
   .project h4 {
@@ -71,8 +68,8 @@
     margin-top: 0; }
   .project .gallery {
     margin-bottom: 20px;
-    width: 600px;
-    height: 450px; }
+    width: 500px;
+    height: 375px; }
     .project .gallery img {
       width: 100%;
       height: auto;
@@ -91,7 +88,7 @@
       background-position: center; }
 
   .recommendation {
-    width: 600px;
+    width: 500px;
     margin-bottom: 20px; }
     .recommendation > * {
       display: inline-block;
@@ -106,7 +103,7 @@
     .recommendation span {
       color: #666; }
     .recommendation .content {
-      width: 480px;
+      width: 380px;
       margin-left: -4px; }
 
   #skills {
@@ -136,7 +133,7 @@
     .skillList li .bar {
       position: absolute;
       bottom: 0;
-      width: 100px;
+      width: 110px;
       height: 15px; }
       .skillList li .bar > * {
         position: absolute;
@@ -145,4 +142,7 @@
         background: #CCC;
         width: 100%; }
       .skillList li .bar .foreground {
-        background: #666; } }
+        background: #666; }
+
+  .skillGroup {
+    width: 50%; } }
