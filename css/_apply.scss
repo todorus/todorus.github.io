@@ -32,6 +32,10 @@ ul {
 	margin-left: -6px;
 
 	position: relative;
+
+	.label {
+		font-family:"roboto-black";
+	}
 }
 #headshot, #introduction {
 	vertical-align: top;

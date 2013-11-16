@@ -41,6 +41,8 @@
     height: 200px;
     margin-left: -6px;
     position: relative; }
+    #introduction .label {
+      font-family: "roboto-black"; }
 
   #headshot, #introduction {
     vertical-align: top;
