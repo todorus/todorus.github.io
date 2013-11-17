@@ -62,7 +62,11 @@ ul {
 .project {
 
 	h3 {
-		margin-top: 30px;
+		margin: 20px inherit;
+		font-size: 45px; 
+		// padding: 3px 5px;
+		// display: inline-block;
+		// background: #6F6F6F;
 	}
 
 	.text {
@@ -78,8 +82,20 @@ ul {
 	h4 {
 		margin-bottom: 0;
 	}
-	.tech {
+
+	.tech, .links {
+		display: inline-block;
+		width: 49%;
+	}
+
+	.tech p {
 		margin-top: 0;
+	}
+
+	.links {
+		a {
+			display: block;
+		}
 	}
 
 
@@ -111,11 +127,6 @@ ul {
 		}
 	}
 
-	.links {
-		a {
-			display: block;
-		}
-	}
 }
 
 .recommendation {

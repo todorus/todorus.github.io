@@ -60,13 +60,19 @@ ul {
     margin-right: 5px; }
 
 .project h3 {
-  margin-top: 30px; }
+  margin: 20px inherit;
+  font-size: 45px; }
 .project .description {
   margin-top: 0; }
 .project h4 {
   margin-bottom: 0; }
-.project .tech {
+.project .tech, .project .links {
+  display: inline-block;
+  width: 49%; }
+.project .tech p {
   margin-top: 0; }
+.project .links a {
+  display: block; }
 .project .gallery {
   margin-bottom: 20px;
   width: 700px;
@@ -87,8 +93,6 @@ ul {
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: center; }
-.project .links a {
-  display: block; }
 
 .recommendation {
   width: 700px;
