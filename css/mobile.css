@@ -28,7 +28,7 @@
 
   #page {
     width: 500px;
-    margin: 0 auto; }
+    margin: 0 auto 50px auto; }
 
   #headshot {
     width: 200px;
@@ -88,6 +88,8 @@
       background-size: cover !important;
       background-repeat: no-repeat !important;
       background-position: center; }
+  .project .links a {
+    display: block; }
 
   .recommendation {
     width: 500px;

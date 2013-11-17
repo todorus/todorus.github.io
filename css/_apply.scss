@@ -1,6 +1,7 @@
 * {
 	font-family: 'roboto';
 }
+
 h1, h2, h3 {
 	font-family: 'roboto-black';
 }
@@ -18,7 +19,7 @@ ul {
 
 #page {
 	width: $pageWidth;
-	margin: 0 auto;
+	margin: 0 auto 50px auto ;
 }
 #headshot{
 	width: $headshotWidth;
@@ -107,6 +108,12 @@ ul {
 			background-size: cover !important;
 			background-repeat:no-repeat !important;
 			background-position: center;
+		}
+	}
+
+	.links {
+		a {
+			display: block;
 		}
 	}
 }

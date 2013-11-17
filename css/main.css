@@ -27,7 +27,7 @@ ul {
 
 #page {
   width: 700px;
-  margin: 0 auto; }
+  margin: 0 auto 50px auto; }
 
 #headshot {
   width: 300px;
@@ -87,6 +87,8 @@ ul {
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: center; }
+.project .links a {
+  display: block; }
 
 .recommendation {
   width: 700px;
