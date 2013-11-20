@@ -1,175 +1,20 @@
-@font-face {
-  font-family: 'source_sans_proregular';
-  src: url("../font/sourcesanspro-regular-webfont.eot");
-  src: url("../font/sourcesanspro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/sourcesanspro-regular-webfont.woff") format("woff"), url("../font/sourcesanspro-regular-webfont.ttf") format("truetype"), url("../font/sourcesanspro-regular-webfont.svg#source_sans_proregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'bree_serifregular';
-  src: url("../font/breeserif-regular-webfont.eot");
-  src: url("../font/breeserif-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/breeserif-regular-webfont.woff") format("woff"), url("../font/breeserif-regular-webfont.ttf") format("truetype"), url("../font/breeserif-regular-webfont.svg#bree_serifregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
 @media all and (max-width: 700px) {
-  html {
-    font-size: 70%; }
-
-  body {
-    padding: 0 10px; }
-
-  * {
-    font-family: 'source_sans_proregular';
-    font-size: 1.05em;
-    max-width: 100%; }
-
-  h1, h2, h3 {
-    font-family: 'bree_serifregular'; }
-
-  h1 {
-    font-size: 3em;
-    margin: .3em 0; }
-
-  h2 {
-    color: #FFF;
-    background: #000;
-    padding: 5px; }
-
-  h3 {
-    margin: 1em inherit;
-    font-size: 2.5em; }
-
-  ul {
-    list-style-type: none;
-    padding-left: 0; }
-
-  #page {
-    width: 500px;
-    margin: 0 auto 50px auto; }
+  .bodyCenter {
+    width: 100%;
+    padding: 0 20px; }
 
   #headshot {
-    width: 200px;
-    height: 200px;
-    background: #666;
-    margin-right: 30px; }
+    width: 100%;
+    height: auto; }
 
   #introduction {
-    width: 270px;
-    height: 200px;
-    margin-left: -6px;
-    position: relative; }
-    #introduction table {
-      font-size: .8em; }
-    #introduction .label {
-      font-weight: bold; }
-
-  #headshot, #introduction {
-    vertical-align: top;
-    display: inline-block; }
+    width: 100%;
+    height: auto;
+    margin: .5em 0; }
 
   #socialRow {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 30px; }
-    #socialRow a {
-      text-decoration: none; }
-    #socialRow img {
-      width: 30px;
-      height: 30px;
-      margin-right: 5px; }
+    margin-top: 1em;
+    position: static; }
 
-  .project .description {
-    margin-top: 0; }
-  .project h4 {
-    margin-bottom: 0; }
-  .project .tech, .project .links {
-    display: inline-block;
-    width: 49%; }
-  .project .tech p {
-    margin-top: 0; }
-  .project .links a {
-    display: block; }
-  .project .gallery {
-    margin-bottom: 20px;
-    width: 500px;
-    height: 375px; }
-    .project .gallery img {
-      width: 100%;
-      height: auto;
-      text-align: center;
-      display: block;
-      margin-left: auto;
-      margin-right: auto; }
-    .project .gallery img.height {
-      width: auto;
-      height: 100%; }
-    .project .gallery .swiper-slide div {
-      width: 300px;
-      height: 225px;
-      background-size: cover !important;
-      background-repeat: no-repeat !important;
-      background-position: center; }
-    .project .gallery .swiper-wrapper {
-      max-width: none; }
-
-  .recommendation {
-    width: 500px;
-    margin-bottom: 20px; }
-    .recommendation > * {
-      display: inline-block;
-      vertical-align: top; }
-    .recommendation img {
-      width: 100px;
-      height: 100px;
-      margin-right: 20px; }
-    .recommendation h3 {
-      margin-top: -4px;
-      margin-bottom: 2px; }
-    .recommendation span {
-      color: #666; }
-    .recommendation .content {
-      width: 380px;
-      margin-left: -4px; }
-
-  #skills {
-    position: relative;
-    left: 4px; }
-
-  .skillGroup {
-    display: inline-block;
-    vertical-align: top;
-    width: 25%;
-    margin-left: -4px; }
-    .skillGroup h3 {
-      margin-bottom: 4px;
-      margin-top: 0; }
-    .skillGroup .skillList {
-      margin-top: 0; }
-
-  .skillList li {
-    height: 40px;
-    margin-bottom: 8px; }
-    .skillList li > * {
-      vertical-align: top;
-      display: inline-block;
-      height: 100%; }
-    .skillList li .right {
-      position: relative; }
-    .skillList li .bar {
-      position: absolute;
-      bottom: 0;
-      width: 110px;
-      height: 15px; }
-      .skillList li .bar > * {
-        position: absolute;
-        height: 15px; }
-      .skillList li .bar .background {
-        background: #CCC;
-        width: 100%; }
-      .skillList li .bar .foreground {
-        background: #666; }
-
-  .skillGroup {
-    width: 50%; } }
+  #introduction {
+    margin-left: 0; } }

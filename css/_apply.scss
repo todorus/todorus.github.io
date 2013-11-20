@@ -1,10 +1,14 @@
 html {
 	font-size: $baseFontSize;
+	padding: 0;
 }
 body {
-	padding: 0 10px;
+	margin: 0;
+	padding: 0;
 }
 * {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
 	font-family: 'source_sans_proregular';
 	font-size: 1.05em;
 	max-width: 100%;
@@ -14,7 +18,7 @@ h1, h2, h3 {
 }
 h1 {
 	font-size: 3em;
-	margin: .3em 0;
+	margin: 0 0 .3em;
 }
 
 h2 {
@@ -24,18 +28,51 @@ h2 {
 }
 
 h3 {
-		margin: 1em inherit;
-		font-size: 2.5em;
+	position: relative;
+	margin: 1em inherit;
+	font-size: 2.5em;
+
+	&:first-of-type{
+		margin-top: .4em;
 	}
+
+}
+$headerIndicatorWidth: 100px;
+h3:before {
+	position: absolute;
+	left: -$headerIndicatorWidth - 20px;
+	top: .42em;
+	width: $headerIndicatorWidth;
+	height: 30px;
+	background:#3091d4;
+	content:'';
+}
 
 ul {
 	list-style-type:none;
 	padding-left: 0;
 }
+.bodyCenter {
+	width: $pageWidth;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+$summaryMargin: 1.7em;
+#top {
+	background:#3091d4;
+	color: #FFF;
+	padding: 0 0 $summaryMargin;
+}
+#summary {
+	font-size: 1.2em;
+	margin: $summaryMargin 0 0;
+}
 
 #page {
-	width: $pageWidth;
-	margin: 0 auto 50px auto ;
+	margin-top: 0;
+	margin-bottom: 50px;
 }
 #headshot{
 	width: $headshotWidth;
@@ -44,7 +81,7 @@ ul {
 	margin-right: $headshotMargin;
 }
 #introduction {
-	width: $pageWidth - $headshotWidth - $headshotMargin;
+	width: $introductionWidth;
 	height: $headshotWidth;
 	margin-left: -6px;
 

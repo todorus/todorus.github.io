@@ -1,10 +1,25 @@
-@import "font";
-@import "valuesmobile";
 @media all and (max-width: 700px) {
-  
-	@import "apply";
+  .bodyCenter {
+    width: 100%;
+    padding: 0 20px;
+  }
 
-	.skillGroup {
-		width: 50%;
-	}
+  #headshot {
+    width: 100%;
+    height: auto;
+  }
+  #introduction {
+    width: 100%;
+    height: auto;
+    margin: .5em 0;
+  }
+
+	#socialRow{
+    margin-top: 1em;
+    position: static;
+  }
+
+  #introduction {
+    margin-left: 0;
+  }
 }
