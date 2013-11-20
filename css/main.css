@@ -137,12 +137,12 @@ ul {
   .project .gallery img.height {
     width: auto;
     height: 100%; }
-  .project .gallery .swiper-slide div {
-    width: 400px;
-    height: 300px;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    background-position: center; }
+  .project .gallery .swipecontent {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; }
   .project .gallery .swiper-wrapper {
     max-width: none; }
 
