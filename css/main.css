@@ -90,10 +90,11 @@ ul {
   height: 300px;
   margin-left: -6px;
   position: relative; }
-  #introduction table {
+  #introduction #facts {
     font-size: .8em; }
   #introduction .label {
-    font-weight: bold; }
+    font-weight: bold;
+    padding-right: 1em; }
 
 #headshot, #introduction {
   vertical-align: top;

@@ -87,12 +87,13 @@ $summaryMargin: 1.7em;
 
 	position: relative;
 
-	table {
+	#facts {
 		font-size: .8em;
 	}
 
 	.label {
 		font-weight: bold;
+		padding-right: 1em;
 	}
 }
 #headshot, #introduction {
