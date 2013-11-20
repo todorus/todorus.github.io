@@ -49,9 +49,14 @@ h3:before {
 }
 a {
 	font-size: 1.04em;
+	color: #058e0b;
+	text-decoration: none;
+
+	&:hover {
+		color:#3091d4;
+	}
 }
 a.keplar {
-	text-decoration: none;
 	color: #f50c4e;
 
 	&:hover {
@@ -75,6 +80,14 @@ $summaryMargin: 1.7em;
 	background:#3091d4;
 	color: #FFF;
 	padding: 0 0 $summaryMargin;
+
+	a {
+		color: #37f40b;
+
+		&:hover {
+			color: #f49689;
+		}
+	}
 }
 #summary {
 	font-size: 1.2em;

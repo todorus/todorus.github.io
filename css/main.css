@@ -57,10 +57,13 @@ h3:before {
   content: ''; }
 
 a {
-  font-size: 1.04em; }
+  font-size: 1.04em;
+  color: #058e0b;
+  text-decoration: none; }
+  a:hover {
+    color: #3091d4; }
 
 a.keplar {
-  text-decoration: none;
   color: #f50c4e; }
   a.keplar:hover {
     color: #07bea4; }
@@ -79,6 +82,10 @@ ul {
   background: #3091d4;
   color: #FFF;
   padding: 0 0 1.7em; }
+  #top a {
+    color: #37f40b; }
+    #top a:hover {
+      color: #f49689; }
 
 #summary {
   font-size: 1.2em;
@@ -127,6 +134,7 @@ ul {
   margin-bottom: 0; }
 .project .tech, .project .links {
   display: inline-block;
+  vertical-align: top;
   width: 49%; }
 .project .tech p {
   margin-top: 0; }
