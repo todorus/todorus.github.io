@@ -47,6 +47,17 @@ h3:before {
 	background:#3091d4;
 	content:'';
 }
+a {
+	font-size: 1.04em;
+}
+a.keplar {
+	text-decoration: none;
+	color: #f50c4e;
+
+	&:hover {
+		color:#07bea4;
+	}
+}
 
 ul {
 	list-style-type:none;
