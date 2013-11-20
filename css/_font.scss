@@ -1,12 +1,22 @@
 @font-face {
-	font-family: 'roboto';
-	src: url('../font/Roboto-Regular.ttf');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'source_sans_proregular';
+    src: url('../font/sourcesanspro-regular-webfont.eot');
+    src: url('../font/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/sourcesanspro-regular-webfont.woff') format('woff'),
+         url('../font/sourcesanspro-regular-webfont.ttf') format('truetype'),
+         url('../font/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 @font-face {
-	font-family: 'roboto-black';
-	src: url('../font/Roboto-Black.ttf');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'bree_serifregular';
+    src: url('../font/breeserif-regular-webfont.eot');
+    src: url('../font/breeserif-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/breeserif-regular-webfont.woff') format('woff'),
+         url('../font/breeserif-regular-webfont.ttf') format('truetype'),
+         url('../font/breeserif-regular-webfont.svg#bree_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
